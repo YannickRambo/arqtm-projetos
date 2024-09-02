@@ -1,0 +1,34 @@
+footer h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+
+footer section {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    background-color: #a0bfbd;
+    padding: 3em;
+}
+
+footer section p {
+    font-size: 1.5em;
+}
+
+footer section span {
+    font-weight: bold;
+}
+
+footer img {
+    width: 100px;
+}
+
+@media screen and (max-width: 450px) {
+    footer section {
+        padding: 1em;
+    }
+}

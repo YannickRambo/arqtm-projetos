@@ -1,0 +1,35 @@
+.slider {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.arrows {
+    display: flex;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.arrows svg {
+    height: 3em;
+    width: 3em;
+    color: #cb9479;
+    transition: .2s;
+}
+
+.arrows svg:hover {
+    color: #b5a89b;
+}
+
+.right {
+    top: 50%;
+    right: 0;
+}
+
+.left {
+    top: 50%;
+    left: 0;
+}

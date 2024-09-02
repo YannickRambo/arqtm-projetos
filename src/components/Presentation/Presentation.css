@@ -1,0 +1,19 @@
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 75vh;
+    padding: 0 3em;
+    gap: 1em;
+    background-color: #a0bfbd;
+}
+
+.presentation p {
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 450px) {
+    .presentation {
+        padding: 1em;
+    }
+}

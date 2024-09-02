@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: #d7cdc2;
+  padding: 0em 3em;
+  border-bottom: 3px solid #cb9479;
+  z-index: 1;
+}
+
+.headerMenu {
+  display: flex;
+  gap: 1em;
+  list-style: none;
+}
+
+.headerMenu li a {
+  cursor: pointer;
+  color: black;
+}
+
+.headerMenu figure {
+  display: flex;
+}
+
+.logo {
+  width: 150px;
+}
+
+.headerMenu svg {
+  display: flex;
+  align-items: center;
+  height: 3em;
+  width: 3em;
+  transition: .2s;
+}
+
+.headerMenu svg:hover {
+  color: #cb9479;
+}
+
+@media screen and (max-width: 450px) {
+  header {
+    width: 100vw;
+    padding: 0 1em;
+  }
+
+  .logo {
+    width: 100px;
+  }
+}

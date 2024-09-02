@@ -1,0 +1,34 @@
+#targets {
+    padding: 3em 0;
+}
+
+#targets h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+
+.clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3em;
+    min-height: 75vh;
+    font-size: 1.5em;
+    gap: 1em;
+    background-color: #a0bfbd;
+}
+
+.clients span {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 450px) {
+    #targets {
+        padding: 1em 0;
+    }
+
+    .clients {
+        padding: 1em;
+    }
+}
