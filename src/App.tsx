@@ -6,6 +6,7 @@ import { Responsabilities } from "./components/Responsabilities/Responsabilities
 import { Targets } from "./components/Targets/Targets";
 import { Footer } from "./components/Footer/Footer";
 import { Projects } from "./components/Projects/Projects";
+import { PrinciplesAndValues } from "./components/PrinciplesAndValues/PrinciplesAndValues";
 
 function App() {
   const [showSidebar, setShowSidebar] = useState<boolean>(false);
@@ -16,6 +17,7 @@ function App() {
       <Sidebar showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
       <Main />
       <Responsabilities />
+      <PrinciplesAndValues />
       <Projects />
       <Targets />
       <Footer />

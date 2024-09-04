@@ -1,0 +1,63 @@
+.principlesAndValues {
+    display: flex;
+    gap: 2em;
+    padding: 2em;
+    min-height: 75vh;
+    margin: 3em 0;
+    background-color: #a0bfbd;
+}
+
+.principles,
+.values {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1em;
+}
+
+.principlesAndValuesTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.principlesAndValuesTitle svg {
+    width: 50px;
+    height: 50px;
+}
+
+.principlesAndValuesTitle h2 {
+    font-size: 2em;
+}
+
+.principles ul,
+.values ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    list-style: none;
+}
+
+
+.principles h2,
+.values h2 {
+    text-align: center;
+}
+
+.principles p,
+.values p {
+    font-size: 1.2em;
+}
+
+.principles span,
+.values span {
+    font-weight: bold;
+}
+
+@media screen and (max-width:450px) {
+    .principlesAndValues {
+        flex-direction: column;
+        margin: 3em 0 1em 0;
+    }
+}
